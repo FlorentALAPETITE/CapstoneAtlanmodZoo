@@ -8,11 +8,6 @@
     <artifactId>CapstoneAtlanmodZoo</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <properties>
-        <generated-sources.location>${project.basedir}/src/main/java-gen/</generated-sources.location>
-        <models.location>${project.basedir}/src/main/model/</models.location>
-    </properties>
-
     <modules>
         <module>API</module>
         <module>Impl1</module>
