@@ -5,13 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.atlanmod.zoo.capstone</groupId>
-    <artifactId>CapstoneAtlanmodZoo</artifactId>
+    <artifactId>Impl3</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <modules>
-        <module>VanillaTesting</module>
-        <module>GuiceTesting</module>
-        <module>SpringTesting</module>
-    </modules>
     
 </project>
