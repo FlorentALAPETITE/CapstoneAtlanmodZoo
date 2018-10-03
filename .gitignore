@@ -14,6 +14,7 @@ buildNumber.properties
 
 .DS_Store
 .idea
+.metadata
 *.iml
 .classpath
 .project
