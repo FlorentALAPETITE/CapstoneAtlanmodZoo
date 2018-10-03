@@ -4,9 +4,21 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>groupId</groupId>
+    <groupId>com.atlanmod.zoo.capstone</groupId>
     <artifactId>CapstoneAtlanmodZoo</artifactId>
     <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <generated-sources.location>${project.basedir}/src/main/java-gen/</generated-sources.location>
+        <models.location>${project.basedir}/src/main/model/</models.location>
+    </properties>
+
+    <modules>
+        <module>API</module>
+        <module>Impl1</module>
+        <module>Impl2</module>
+        <module>Impl3</module>
+    </modules>
 
     
 </project>
