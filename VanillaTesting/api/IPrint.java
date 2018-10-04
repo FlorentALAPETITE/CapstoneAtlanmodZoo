@@ -1,5 +1,5 @@
 public interface IPrint {
-    IPrint printerInstance = Print1.init();
+    IPrint printerInstance = PrintImpl.init();
 
-    public IPrint getInstance();
+    public int getValue();
 }
