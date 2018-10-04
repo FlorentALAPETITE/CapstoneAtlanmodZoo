@@ -1,6 +1,13 @@
 public class Print1 implements IPrint{
+    private final int VALUE = 1;
+
+    public static IPrint init(){
+        Print1 res = new Print1();
+        return res;
+    }
+
     @Override
-    public void print() {
-        System.out.println("Coucou, je suis impl 1 !");
+    public IPrint getInstance(){
+        return this.printerInstance;
     }
 }
