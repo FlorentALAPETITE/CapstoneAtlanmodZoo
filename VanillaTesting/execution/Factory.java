@@ -1,6 +1,3 @@
-import Impl1.Print1;
-import api.IPrint;
-import impl2.Print2;
 import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
 public class Factory {

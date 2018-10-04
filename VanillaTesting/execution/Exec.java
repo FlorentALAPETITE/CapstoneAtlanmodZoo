@@ -1,5 +1,3 @@
-import api.IPrint;
-
 public class Exec {
     public static void main(String[] args){
         IPrint printer;
