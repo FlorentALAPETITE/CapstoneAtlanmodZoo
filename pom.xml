@@ -13,5 +13,7 @@
         <module>GuiceTesting</module>
         <module>SpringTesting</module>
     </modules>
+
+    <packaging>pom</packaging>
     
 </project>

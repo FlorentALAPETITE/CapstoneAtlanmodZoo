@@ -16,14 +16,15 @@
         </plugins>
     </build>
 
+    <groupId>com.atlanmod.zoo.capstone.vanillaTesting</groupId>
+    <artifactId>impl1</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
     <parent>
         <groupId>com.atlanmod.zoo.capstone</groupId>
         <artifactId>vanillaTesting</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-
-    <artifactId>impl1</artifactId>
-    <version>1.0-SNAPSHOT</version>
 
     <dependencies>
         <dependency>
