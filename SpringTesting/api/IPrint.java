@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 public interface IPrint {
 
     @Autowired
-    IPrint printerInstance = new ClassPathXmlApplicationContext("inject.xml").getBean(PrinterFactory.class).initPrinter(); // TODO mettre le load de Spring + config;
+    IPrint printerInstance = new ClassPathXmlApplicationContext("inject.xml").getBean(PrinterFactory.class).initPrinter(); 
 
     public IPrint getInstance();
 
