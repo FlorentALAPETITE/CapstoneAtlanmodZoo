@@ -5,7 +5,7 @@ import javax.enterprise.inject.Produces;
 
 public class PrinterFactoryImpl implements PrinterFactory {
 
-    //@Produces
+    @Produces @Default
     public IPrint createPrinter() {
         return new Printer();
     }

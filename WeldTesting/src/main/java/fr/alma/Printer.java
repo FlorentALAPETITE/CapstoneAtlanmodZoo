@@ -1,10 +1,9 @@
 package fr.alma;
 
 
-import javax.enterprise.inject.Alternative;
-import javax.enterprise.inject.Any;
-import javax.enterprise.inject.Default;
+import javax.enterprise.context.ApplicationScoped;
 
+@ApplicationScoped
 public class Printer implements IPrint {
 
 
@@ -16,4 +15,5 @@ public class Printer implements IPrint {
     public void print() {
         System.out.printf("c'est moi");
     }
+
 }
